@@ -24,6 +24,8 @@ const apiKey = "2c26c602e0cb0f7448c8906bede1ee07";
           document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " km/h";
           document.querySelector(".tempMax").innerHTML = Math.round(data.main.temp_max) + " °C";
           document.querySelector(".tempMin").innerHTML = Math.round(data.main.temp_min) + " °C";
+          document.querySelector(".fLike").innerHTML = Math.round(data.main.feels_like) + " °C";
+          document.querySelector(".press").innerHTML = Math.round(data.main.pressure) + " mb";
 
           if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "images/clouds.png";
