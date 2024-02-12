@@ -109,7 +109,7 @@ body{
   margin-right: 10px;
 }
 
-.humidity, .wind, .tempMax, .tempMin{
+.humidity, .wind, .tempMax, .tempMin, .fLike, .press{
   font-size: 28px;
   margin-top: -6px;
 }
